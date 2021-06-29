@@ -1,0 +1,82 @@
+,index,cl_dt,dataset,Description
+0,id,int,train,Property number
+1,pid,int,train,Row number
+2,ms_subclass,int,train,The building class
+3,ms_zoning,string,train,Identifies the general zoning classification of the sale.
+4,lot_frontage,float,train,Linear feet of street connected to property
+5,lot_area,int,train,Lot size in square feet
+6,street,string,train,Type of road access to property
+7,alley,float,train,Type of alley access to property
+8,lot_shape,string,train,General shape of property
+9,land_contour,string,train,Flatness of the property
+10,utilities,string,train,Type of utilities available
+11,lot_config,string,train,Lot configuration
+12,land_slope,string,train,Slope of property
+13,neighborhood,string,train,Physical locations within Ames city limits
+14,condition_1,string,train,Proximity to main road or railroad
+15,condition_2,string,train,Proximity to main road or railroad (if a second is present)
+16,bldg_type,string,train,Type of dwelling
+17,house_style,string,train,Style of dwelling
+18,overall_qual,int,train,Overall material and finish quality
+19,overall_cond,int,train,Overall condition rating
+20,year_built,int,train,Original construction date
+21,year_remod/add,int,train,Remodel date (same as construction date if no remodeling or additions)
+22,roof_style,string,train,Type of roof
+23,roof_matl,string,train,Roof material
+24,exterior_1st,string,train,Exterior covering on house
+25,exterior_2nd,string,train,Exterior covering on house (if more than one material)
+26,mas_vnr_type,string,train,Masonry veneer type
+27,mas_vnr_area,float,train,Masonry veneer area in square feet
+28,exter_qual,string,train,Exterior material quality
+29,exter_cond,string,train,Present condition of the material on the exterior
+30,foundation,string,train,Type of foundation
+31,bsmt_qual,string,train,Height of the basement
+32,bsmt_cond,string,train,General condition of the basement
+33,bsmt_exposure,string,train,Walkout or garden level basement walls
+34,bsmtfin_type_1,string,train,Quality of basement finished area
+35,bsmtfin_sf_1,float,train,Type 1 finished square feet
+36,bsmtfin_type_2,string,train,Quality of second finished area (if present)
+37,bsmtfin_sf_2,float,train,Type 2 finished square feet
+38,bsmt_unf_sf,float,train,Unfinished square feet of basement area
+39,total_bsmt_sf,float,train,Total square feet of basement area
+40,heating,string,train,Type of heating
+41,heating_qc,string,train,Heating quality and condition
+42,central_air,string,train,Central air conditioning
+43,electrical,string,train,Electrical system
+44,1st_flr_sf,int,train,First Floor square feet
+45,2nd_flr_sf,int,train,Second floor square feet
+46,low_qual_fin_sf,int,train,Low quality finished square feet (all floors)
+47,gr_liv_area,int,train,Above grade (ground) living area square feet
+48,bsmt_full_bath,float,train,Basement full bathrooms
+49,bsmt_half_bath,float,train,Basement half bathrooms
+50,full_bath,int,train,Full bathrooms above grade
+51,half_bath,int,train,Half baths above grade
+52,bedroom_abvgr,int,train,Number of bedrooms above basement level
+53,kitchen_abvgr,int,train,Number of kitchens
+54,kitchen_qual,string,train,Kitchen quality
+55,totrms_abvgrd,int,train,Total rooms above grade (does not include bathrooms)
+56,functional,string,train,Home functionality rating
+57,fireplaces,int,train,Number of fireplaces
+58,fireplace_qu,string,train,Fireplace quality
+59,garage_type,string,train,Garage location
+60,garage_yr_blt,float,train,Year garage was built
+61,garage_finish,string,train,Interior finish of the garage
+62,garage_cars,float,train,Size of garage in car capacity
+63,garage_area,float,train,Size of garage in square feet
+64,garage_qual,string,train,Garage quality
+65,garage_cond,string,train,Garage condition
+66,paved_drive,string,train,Paved driveway
+67,wood_deck_sf,int,train,Wood deck area in square feet
+68,open_porch_sf,int,train,Open porch area in square feet
+69,enclosed_porch,int,train,Enclosed porch area in square feet
+70,3ssn_porch,int,train,Three season porch area in square feet
+71,screen_porch,int,train,Screen porch area in square feet
+72,pool_area,int,train,Pool area in square feet
+73,pool_qc,float,train,Pool quality
+74,fence,float,train,Fence quality
+75,misc_feature,float,train,Miscellaneous feature not covered in other categories
+76,misc_val,int,train,$Value of miscellaneous feature
+77,mo_sold,int,train,Month Sold
+78,yr_sold,int,train,Year Sold
+79,sale_type,string,train,Type of sale
+80,saleprice,int,train,Price property was sold for
